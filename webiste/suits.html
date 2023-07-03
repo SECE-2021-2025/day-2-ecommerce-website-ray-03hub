@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Office Wear</title>
+    
+    <body><style>
+        body{
+            background-image: url('Background.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        *{
+            box-sizing: border-box;
+            box-shadow: 10px;
+        }
+        .coloumn{
+            float:left;
+            width:33.33%;
+            padding: 5px;
+        }
+        .row::after{
+            content: "";
+            clear:both;
+            display:table;
+        }
+       </style>
+      
+        <div class="row">
+            <div class="coloumn">
+                <dl><img src="outfit.jpg" width="200" height="200"/></dl>
+                <dd style="color:darkblue;font-style:italic;font-size:larger;padding: left 100px;padding: top 100px;">Office Suits</dd>
+                <div class= "column"><dl><img src="C:\Raylene\mern stack porject\webiste\office.png" width="200" height="200"/></dl>
+        <dd style="color:darkblue;font-style:italic;font-size:larger;padding: left 100px;padding: top 100px;">Office casuals</dd></div>
+        <div class= "column"><dl><img src="C:\Raylene\mern stack porject\webiste\shirts.jpg" width="200" height="200;padding: left 100px;padding: top 100px" /></dl>
+                <dd style="color:darkblue;font-style:italic;font-size:larger;padding: left 100px;padding: top 100px">Office Shirts</dd></div>
+            </div>
+        
+      
+
+       
+    </body>
+</head>
+</html>
